@@ -1,0 +1,55 @@
+/*@import url(http://fonts.googleapis.com/css?family=Molle:400italic);*/
+/*@import url(http://fonts.googleapis.com/css?family=Bad+Script);*/
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(http://fonts.googleapis.com/css?family=Actor);
+@import url(http://fonts.googleapis.com/css?family=Belleza);
+body{
+  max-width: 900px;
+  background-position: center;
+  background-image: url('http://blog-gratuit.me/wp-content/uploads/2014/07/michelonfrayetlecosmos.jpg');
+  color: white;
+  /*font-family: 'Actor', sans-serif;*/
+  font-family: 'Belleza', sans-serif;
+}
+
+#title{
+  text-align: center;
+  /*font-family: 'Molle', cursive;*/
+  /*font-family: 'Bad Script', cursive;*/
+  /*font-family: 'Rock Salt', cursive;*/
+  /*background-image: url('http://blog-gratuit.me/wp-content/uploads/2014/07/michelonfrayetlecosmos.jpg');*/
+  background-color: rgba(255,255,255,.5);
+  /*font-family: 'Actor', sans-serif;*/
+  margin: auto;
+}
+
+li:hover{
+  color: pink;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color:pink;
+}
+
+a:focus{
+  outline: 2px;
+  color:grey;
+}
+
+p{
+  /*background-color: pink;*/
+  /*font-family: 'Actor', sans-serif;*/
+  font-size: 1rem;
+}
+
+footer{
+  font-size: .5rem;
+}
+
+input:focus, textarea: focus{
+  background-color: rgba(255,255,255,.5);
+}
